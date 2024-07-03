@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/samoore/pipex/bonus'
+cc -Wall -Werror -Wextra -c ft_split.c -o ft_split.o
+cc -Wall -Werror -Wextra -c ft_strings.c -o ft_strings.o
+cc -Wall -Werror -Wextra -c init.c -o init.o
+cc -Wall -Werror -Wextra -c paths.c -o paths.o
+cc -Wall -Werror -Wextra -c heredoc.c -o heredoc.o
+cc -Wall -Werror -Wextra -c pipex.c -o pipex.o
+cc -Wall -Werror -Wextra  ft_split.o  ft_strings.o  init.o  paths.o  heredoc.o  pipex.o -o pipex
+make: Leaving directory '/home/samoore/pipex/bonus'
+ 
