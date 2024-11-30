@@ -72,7 +72,7 @@ The program can be used to pipe commands together by providing input and output 
 ```
 This runs command1 with file1 as input, pipes its output to command2, and writes the result to file2.
 
-Bonus Usage (Multiple Commands)
+### Bonus Usage (Multiple Commands)
 ```bash
 ./pipex file1 "command1" "command2" "command3" file2
 ```
